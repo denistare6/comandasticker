@@ -1,0 +1,99 @@
+/* Stiluri generale pentru întregul website */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Stiluri pentru capul paginii */
+  header {
+    background-color: #0066cc;
+    padding: 10px;
+    color: #fff;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .menu-item {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Stiluri pentru conținutul paginii */
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Stiluri pentru index.html */
+.index-content {
+  text-align: center;
+}
+
+.colored-text {
+  background: linear-gradient(to right, #dc0000 0%, #dc0000 33%, #fff 33%, #fff 66%, #002387 66%, #002387 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Stiluri pentru comenzi.html */
+#comenzi-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  margin: 10px 0;
+  padding: 10px;
+  width: 300px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #0066cc;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Stiluri pentru celelalte pagini */
+.imagini-content,
+.aboutme-content {
+  margin-bottom: 20px;
+}
+
+/* Stiluri pentru coadă */
+footer {
+  background-color: #0066cc;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-text {
+  font-size: 14px;
+}
